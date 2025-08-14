@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 DevMotors
 
-## Getting Started
+O **DevMotors** é um projeto desenvolvido com **Next.js** que tem como objetivo fornecer um site moderno e rápido para apresentação de conteúdos e postagens relacionadas ao mundo automotivo.
 
-First, run the development server:
+O projeto utiliza o **CosmicJS** como **Headless CMS**, que fornece o conteúdo da página inicial e das páginas dinâmicas por meio de uma **API RESTful**. Isso garante flexibilidade e facilidade para gerenciar os textos, imagens e posts sem alterar o código-fonte.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Página inicial dinâmica com listagem de posts vinda do **CosmicJS**
+- Página individual para cada conteúdo (`/post/[slug]`)
+- Geração estática e renderização no servidor (SSG/SSR)
+- Consumo de **API RESTful** para alimentar o conteúdo
+- Design responsivo
+- Otimização para SEO
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **[Next.js](https://nextjs.org/)** — Framework React para aplicações web modernas
+- **React** — Biblioteca para construção de interfaces
+- **JavaScript / TypeScript** — Linguagem principal do projeto
+- **[CosmicJS](https://www.cosmicjs.com/)** — Headless CMS para gerenciamento de conteúdo via API RESTful
+- **SCSS** — Estilização
+- **Vercel** — Hospedagem e deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
